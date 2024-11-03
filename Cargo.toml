@@ -1,0 +1,11 @@
+[package]
+name = "how-to-profile"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.dev]
+debug = true
+[profile.release]
+debug = true
